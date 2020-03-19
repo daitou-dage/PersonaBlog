@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+h3 {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.title,
+.content,
+ .rev{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 0.2px solid #eee;
+}
+a{
+    color: #000;
+}
+.title{
+    font-size: 14px;
+}
+.content > ul{
+    margin:  5px 35px;
+    font-size: 12px;
+}
+.content > ul > li {
+    padding: 5px 0;
+}
+.rev {
+    font-size: 14px;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.footer > p {
+    margin-top: 10px;
+}
+.footer > p > a {
+    font-weight: 800;
+}

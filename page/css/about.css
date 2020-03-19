@@ -1,0 +1,49 @@
+.content_left {
+    text-align: left;
+    width: 66.6%;
+    position: absolute;
+}
+.content_left > .description {
+    padding: 5px 0 5px 20px;
+    background-color: white;
+}
+.description > h3 {
+    padding-bottom: 20px;
+    margin: 20px 20px 10px 0;
+    border-bottom: 1px solid #a2a2a2;
+}
+.description > p {
+    padding: 3px 0;
+    font-size: 14px;
+}
+.description > p > span {
+    color: #337ab7;
+    padding:0 2px;
+    cursor: pointer;
+}
+.blog_comments {
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.blog_comments > .message {
+    padding: 10px 10px 20px;
+    margin: 10px 0;
+    background-color: #d9edf7;
+    border: 1px dashed #7ca4c1;
+    color: #31708f;
+    font-size: 14px;
+}
+.blog_comments > .message > .mes_top {
+    margin: 5px;
+    height: 40px;
+}
+.message > .mes_top > img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.message > .mes_top > a {
+    color: #31708f;
+}
+
